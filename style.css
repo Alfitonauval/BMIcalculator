@@ -20,6 +20,7 @@ body {
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
+/* fixed */
   .calculator {
     display: flex;
     flex-direction: column;
