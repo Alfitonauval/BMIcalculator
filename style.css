@@ -1,0 +1,72 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid rgb(29, 23, 136);
+    background-color: rgb(247, 243, 243);
+    padding: 50px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  input{
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+  }
+  .result{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 5px solid rgb(29, 23, 136);
+      background-color: rgba(246, 243, 243, 0.926);
+      width: 300px;
+      height: 429px;
+      border-radius: 25px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      -ms-border-radius: 25px;
+      -o-border-radius: 25px;
+}
+  button{
+      border-radius: 10px;
+      padding: 10px;
+      border: none;
+  }
+  select{
+      padding: 5px;
+      border-radius: 10px;
+      border: none;
+  }
+  .show-result{
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+  }
+  .wrap-all{
+    display: flex ;
+    gap: 25px ;
+  }
+  #result {
+    font-weight: bold ;
+    font-size:20px ;
+  }
